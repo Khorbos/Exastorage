@@ -2,4 +2,11 @@
 6981885b0223e9c0c2662b915b09d0dd0bd71716 assets/exastorage/blockstates/copper_ore.json
 86093f3e97df21eef228d55711902fa78ce53b7c assets/exastorage/models/block/copper_block.json
 53b3c4993e2628f9ade8a54038302c35d764fd9a assets/exastorage/models/block/copper_ore.json
+b6ed328ab8fb3f5067c84fe34c6a358178c20614 assets/exastorage/models/item/copper_block.json
 947a83eab1ff70867574944c0c2eb55eae1dd4b7 assets/exastorage/models/item/copper_ingot.json
+de92e6d193e06ac971526112ccfe70daaf6ba8ae assets/exastorage/models/item/copper_ore.json
+0b5d8eaf2495d0a322ff765ac37d339cab9e5f63 data/forge/tags/blocks/ores/copper.json
+9a62c0f7f1cb13db9d775f048d2e005d1bb765a0 data/forge/tags/blocks/storage_blocks/copper.json
+e256ad3b667983c6b43561777b32ccf2e5bde654 data/forge/tags/items/ingots/copper.json
+0b5d8eaf2495d0a322ff765ac37d339cab9e5f63 data/forge/tags/items/ores/copper.json
+9a62c0f7f1cb13db9d775f048d2e005d1bb765a0 data/forge/tags/items/storage_blocks/copper.json

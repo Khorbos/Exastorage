@@ -16,11 +16,13 @@ public final class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event){
         DataGenerator gen = event.getGenerator();
-
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
-        gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
+
         gen.addProvider(new ModBlockStateProvider(gen, existingFileHelper));
+        gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
 
-
+        ModBlockTagsProvider blockTags = new ModBlockTagsProvider(gen, existingFileHelper);
+        gen.addProvider(blockTags);
+        gen.addProvider(new ModItemTagsProvider(gen, blockTags, existingFileHelper));
     }
 }
