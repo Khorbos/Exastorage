@@ -1,5 +1,18 @@
 {
   "item.exastorage.copper_ingot": "Copper Ingot",
+  "item.exastorage.usb_key": "USB Key",
+  "item.exastorage.1k_usb_key": "1k Storage USB Key",
+  "item.exastorage.2k_usb_key": "2k Storage USB Key",
+  "item.exastorage.4k_usb_key": "4k Storage USB Key",
+  "item.exastorage.8k_usb_key": "8k Storage USB Key",
+  "item.exastorage.16k_usb_key": "16k Storage USB Key",
+  "item.exastorage.crafting_usb_key": "Crafting USB Key",
+  "item.exastorage.furnace_usb_key": "Furnace USB Key",
+  "item.exastorage.brewing_usb_key": "Brewing USB Key",
+  "item.exastorage.enchanting_usb_key": "Enchanting USB Key",
+
+  "itemGroup.ExastorageMod": "Exastorage Mod",
+
   "block.exastorage.copper_block": "Block of Copper",
   "block.exastorage.copper_ore" : "Copper Ore"
 }

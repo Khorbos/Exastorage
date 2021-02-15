@@ -1,5 +1,6 @@
 package com.khorbos.exastorage.setup;
 
+import com.khorbos.exastorage.ExastorageMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -24,7 +25,7 @@ public class ModBlocks {
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block){
         RegistryObject<T> ret = registerNoItem(name, block);
-        Registration.ITEMS.register(name, () -> new BlockItem(ret.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+        Registration.ITEMS.register(name, () -> new BlockItem(ret.get(), new Item.Properties().group(ExastorageMod.EXA_ITEMS)));
         return ret;
     }
 }

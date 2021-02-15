@@ -1,10 +1,9 @@
 package com.khorbos.exastorage;
 
+import com.khorbos.exastorage.data.group.ExaGroupItems;
 import com.khorbos.exastorage.setup.Registration;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -25,6 +24,7 @@ public class ExastorageMod
 {
     public static final String MOD_ID = "exastorage";
 
+    public static final ExaGroupItems EXA_ITEMS = new ExaGroupItems("ExastorageMod");
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
